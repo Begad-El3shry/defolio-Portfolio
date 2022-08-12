@@ -1,0 +1,270 @@
+/* ==== home-page ===== */
+.home-page{
+    background-image: url(images/intro-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    z-index: 99999;
+}
+.navbar-brand{
+    font-size: 35;
+}
+.nav-item{
+    font-size: 16;
+}
+.layer{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.header h1{
+    font-size: 80px;
+    color: white;
+    position: relative;
+}
+.header h1::after{
+    content: "";
+    margin-left: 10px;
+    font-size: 40px;
+    position: absolute;
+    top: 120%;
+    left: 40%;
+    animation-name: typing;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes typing{
+    0%{content: "|";}
+    3%{content: "D|";}
+    6%{content: "De|";}
+    9%{content: "Des|";}
+    12%{content: "Desi|";}
+    15%{content: "Desig|";}
+    18%{content: "Design|";}
+    21%{content: "Designe|";}
+    24%{content: "Designer|";}
+    27%{content: "Designe|";}   
+    30%{content: "Design|";}
+    33%{content: "Desig|";}
+    36%{content: "Desi|";}
+    39%{content: "Des|";}
+    42%{content: "De|";}
+    45%{content: "D|";}
+    48%{content: "|";}
+    /* ----Developer----- */
+    51%{content: "|";}
+    54%{content: "D|";}
+    57%{content: "De|";}
+    60%{content: "Dev|";}
+    63%{content: "Deve|";}
+    66%{content: "Devel|";}
+    69%{content: "Develo|";}
+    72%{content: "Develop|";}
+    75%{content: "Develope|";}
+    77%{content: "Developer|";}
+
+    79%{content: "Develope|";}   
+    81%{content: "Develop|";}
+    84%{content: "Develo|";}
+    87%{content: "Devel|";}
+    90%{content: "Deve|";}
+    93%{content: "Dev|";}
+    95%{content: "De|";}
+    98%{content: "D|";}
+    100%{content: "|";} 
+}
+/* ====== About-me ========== */
+.About-me{
+    background-color: rgb(227, 231, 235);
+}
+.About{
+  box-shadow: 0 0 15px rgb(87, 85, 85) ;
+}
+.bercent{
+    border-radius: 20px;
+    background-color: rgb(233, 236, 239);
+}
+.real-bercent1{
+    width: 85%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent2{ 
+    width: 75%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent3{
+    width: 50%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent4{
+    width: 90%;
+    height: 10px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.real-bercent5{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(32, 201, 151);
+    border-top-left-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+/* ===== SERVICES ======= */
+.SERVICES{
+    background-color: rgb(227, 231, 235);
+}
+.Service{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(158, 155, 155) ;
+    transition: all 1s;
+}
+.Service:hover{
+    background-color: rgb(111, 240, 201);
+    box-shadow: 0 0 15px rgb(87, 85, 85);
+}
+.iconee{
+    height: 80px;
+    width: 80px;
+    color: rgb(87, 85, 85);
+    font-size: 30px;
+    padding-right: 1px;
+    border: 4px solid rgb(32, 201, 151);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s;
+}
+.iconee:hover{
+    color: white;
+    border: 4px solid rgb(227, 231, 235);
+    background-color: rgb(32, 201, 151);
+}
+/* ====== infopage ======= */
+.infopage{
+    background-image:url(images/counters-bg.jpg) ; 
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.iconee2{
+    height: 80px;
+    width: 80px;
+    color: white;
+    font-size: 30px;
+    padding-right: 1px;
+    border: 4px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s;
+}
+.info{
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 1s;
+}
+/* ====== PORTFOLIO ====== */
+.portfolio{
+    background-color: rgb(227, 231, 235);
+}
+.second-Service{
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(158, 155, 155) ;
+    transition: all 1s;
+}
+.second-Service:hover{
+    box-shadow: 0 0 15px rgb(87, 85, 85);
+}
+.over{
+    overflow: hidden;
+}
+.over img{
+    transition: all 1s;
+}
+.over img:hover{
+    transform: scale(130%);
+}
+/* ===== carousel ====== */
+.my-carousel{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.slidebutton {
+    width: 15px !important;
+    height: 15px !important; 
+    border-radius: 50% ;
+}
+/* ===== blog ======= */
+.blog{
+    background-color: rgb(227, 231, 235);
+}
+/* ====== get-in-touch ========= */
+.get-in-touch{
+    background-image: url(images/overlay-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.input{
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 3px ;
+}
+.btn{
+    background-color: rgb(32, 201, 151);
+    color: white;
+    transition: all 1s;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(59, 231, 180);
+}
+.icone-hover{
+    color: rgb(32, 201, 151);
+    font-size: 30px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s;
+}
+/* ======== endline ======== */
+.endline{
+    color: white;
+    background-color: rgb(52, 51, 87);
+}
+.endline span {
+    color: rgb(32, 201, 151);
+}
+.button-up{
+    font-size: 50px;
+    top: 25% ;
+    right: 15px;
+}
+.colorme{
+    color: rgb(32, 201, 151) !important;
+
+}
+/* ========================= */
+
+
+
+

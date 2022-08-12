@@ -1,0 +1,54 @@
+h1{
+    font-size: 80px;
+    color: rgb(22, 9, 9);
+    position: relative;
+}
+h1::after{
+    content: "";
+    margin-left: 10px;
+    position: absolute;
+    top: 110%;
+    left: 30%;
+    animation-name: typing;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{content: "|";}
+    2%{content: "D|";}
+    4%{content: "De|";}
+    6%{content: "Des|";}
+    8%{content: "Desi|";}
+    10%{content: "Desig|";}
+    12%{content: "Design|";}
+    14%{content: "Designe|";}
+    16%{content: "Designer|";}
+    20%{content: "Designe|";}   
+    22%{content: "Design|";}
+    24%{content: "Desig|";}
+    26%{content: "Desi|";}
+    28%{content: "Des|";}
+    30%{content: "De|";}
+    32%{content: "D|";}
+    34%{content: "|";}
+    /* --------- */
+    0%{content: "|";}
+    2%{content: "D|";}
+    4%{content: "De|";}
+    6%{content: "Des|";}
+    8%{content: "Desi|";}
+    10%{content: "Desig|";}
+    12%{content: "Design|";}
+    14%{content: "Designe|";}
+    16%{content: "Designer|";}
+
+    20%{content: "Designe|";}   
+    22%{content: "Design|";}
+    24%{content: "Desig|";}
+    26%{content: "Desi|";}
+    28%{content: "Des|";}
+    30%{content: "De|";}
+    32%{content: "D|";}
+    34%{content: "|";}
+
+}
